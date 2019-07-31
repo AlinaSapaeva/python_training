@@ -30,7 +30,7 @@ class GroupHelper:
         wb.find_element_by_name("delete").click()
         self.return_to_groups_page()
 
-    def modify_first_group(self, new_data):
+    def modify(self, new_data):
         wb = self.app.wb
         self.open_groups_page()
         # select first group
@@ -45,12 +45,13 @@ class GroupHelper:
     def fill_group_form(self, group):
         wb = self.app.wb
         # fill group form
-        wb.find_element_by_name("group_name").click()
-        wb.find_element_by_name("group_name").clear()
-        wb.find_element_by_name("group_name").send_keys(group.name)
-        wb.find_element_by_name("group_header").click()
-        wb.find_element_by_name("group_header").clear()
-        wb.find_element_by_name("group_header").send_keys(group.header)
-        wb.find_element_by_name("group_footer").click()
-        wb.find_element_by_name("group_footer").clear()
-        wb.find_element_by_name("group_footer").send_keys(group.footer)
+        self.change_field_value("group_name", group.name)
+        self.change_field_value("group_header", group.heade)
+        self.change_field_value("group_footer", group.footer)
+
+    def change_field_value(self, field_name, text):
+        wb = self.app.wb
+        if text is not None:
+            wb.find_element_by_name(field_name).click()
+            wb.find_element_by_name(field_name).clear()
+            wb.find_element_by_name(field_name).send_keys(text)
