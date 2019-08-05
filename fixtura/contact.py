@@ -103,7 +103,7 @@ class ContactHelper:
         wb = self.app.wb
         wb.find_element_by_name("selected[]").click()
 
-    def modify_first_contact(self,new_data):
+    def modify_first_contact(self, new_data):
         wb = self.app.wb
         self.select_first_contact()
         wb.find_element_by_xpath("//img[@alt='Edit']").click()
@@ -111,4 +111,47 @@ class ContactHelper:
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
         self.app.return_home_page()
 
+    def modify(self, new_data):
+        wb = self.app.wb
+        # select first contact
+        self.select_first_contact()
+        # submit editing
+        wb.find_element_by_xpath("//img[@alt='Edit']").click()
+        self.fill_contact_form(new_data)
+        # submit update
+        wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
+        self.app.return_home_page()
+
+
+    def fill_contact_form(self, contact):
+        self.change_field_value("contact_firstname", contact.firstname)
+        self.change_field_value("contact_middlename", contact.middlename)
+        self.change_field_value("contact_lastname", contact.lastname)
+        self.change_field_value("contact_nickname", contact.nickname)
+        self.change_field_value("contact_title", contact.title)
+        self.change_field_value("contact_company", contact.company)
+        self.change_field_value("contact_address", contact.address)
+        self.change_field_value("contact_home", contact.home)
+        self.change_field_value("contact_mobile", contact.mobile)
+        self.change_field_value("contact_work", contact.work)
+        self.change_field_value("contact_fax", contact.fax)
+        self.change_field_value("contact_email", contact.email)
+        self.change_field_value("contact_email2", contact.email2)
+        self.change_field_value("contact_email3", contact.email3)
+        self.change_field_value("contact_bday", contact.bday)
+        self.change_field_value("contact_bmonth", contact.bmonth)
+        self.change_field_value("contact_byear", contact.byear)
+        self.change_field_value("contact_aday", contact.aday)
+        self.change_field_value("contact_amonth", contact.amonth)
+        self.change_field_value("contact_ayear", contact.ayear)
+        self.change_field_value("contact_address2", contact.address2)
+        self.change_field_value("contact_phone2", contact.phone2)
+        self.change_field_value("contact_notes", contact.notes)
+
+    def change_field_value(self, field_name, text):
+        wb = self.app.wb
+        if text is not None:
+            wb.find_element_by_name(field_name).click()
+            wb.find_element_by_name(field_name).clear()
+            wb.find_element_by_name(field_name).send_keys(text)
 
