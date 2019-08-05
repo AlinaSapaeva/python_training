@@ -42,11 +42,10 @@ class GroupHelper:
         wb.find_element_by_name("update").click()
         self.return_to_groups_page()
 
+
     def fill_group_form(self, group):
-        wb = self.app.wb
-        # fill group form
         self.change_field_value("group_name", group.name)
-        self.change_field_value("group_header", group.heade)
+        self.change_field_value("group_header", group.header)
         self.change_field_value("group_footer", group.footer)
 
     def change_field_value(self, field_name, text):
