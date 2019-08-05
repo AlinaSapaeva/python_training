@@ -7,7 +7,7 @@ from fixtura.contact import ContactHelper
 class Application:
     def __init__(self):
         self.wb = WebDriver()
-        self.wb.implicitly_wait(60)
+        self.wb.implicitly_wait(5)
         self.session=SessionHelper(self)
         self.group=GroupHelper(self)
         self.contact=ContactHelper(self)
