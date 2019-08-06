@@ -7,7 +7,7 @@ from fixtura.contact import ContactHelper
 class Application:
     def __init__(self):
         self.wb = WebDriver()
-        self.wb.implicitly_wait(10)
+        self.wb.implicitly_wait(5)
         self.session=SessionHelper(self)
         self.group=GroupHelper(self)
         self.contact=ContactHelper(self)
@@ -25,7 +25,8 @@ class Application:
 
     def return_home_page(self):
         wb = self.wb
-        wb.find_element_by_link_text("home").click()
+        if not (len(wb.find_elements_by_id("MassCB")) > 0):
+            wb.find_element_by_link_text("home").click()
 
     def destroy(self):
         wb = self.wb

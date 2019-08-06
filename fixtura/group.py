@@ -4,7 +4,8 @@ class GroupHelper:
 
     def open_groups_page(self):
         wb = self.app.wb
-        wb.find_element_by_link_text("groups").click()
+        if not (wb.current_url.endswith("/group.php") and len(wb.find_elements_by_name("new")) > 0):
+            wb.find_element_by_link_text("groups").click()
 
     def return_to_groups_page(self):
         wb = self.app.wb
@@ -13,7 +14,6 @@ class GroupHelper:
     def create(self, group):
         wb = self.app.wb
         self.open_groups_page()
-        wb.find_element_by_link_text("groups").click()
         # init group creations
         wb.find_element_by_name("new").click()
         self.fill_group_form(group)

@@ -7,6 +7,7 @@ class ContactHelper:
 
     def add_new(self, contact):
         wb = self.app.wb
+        self.app.return_home_page()
         self.open_create_contacts_page()
         self.fill_contact_form(contact)
         wb.find_element_by_xpath("(//input[@name='submit'])[2]").click()
@@ -30,6 +31,7 @@ class ContactHelper:
 
     def modify_first_contact(self, new_data):
         wb = self.app.wb
+        self.app.return_home_page()
         self.select_first_contact()
         wb.find_element_by_xpath("//img[@alt='Edit']").click()
         self.fill_contact_form(new_data)
