@@ -18,6 +18,7 @@ class ContactHelper:
 
     def delete_first_contact(self):
         wb = self.app.wb
+        self.app.return_home_page()
         self.select_first_contact()
         # submit deletion
         wb.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
@@ -37,6 +38,7 @@ class ContactHelper:
 
     def modify(self, new_data):
         wb = self.app.wb
+        self.app.return_home_page()
         # select first contact
         self.select_first_contact()
         # submit editing
@@ -87,4 +89,5 @@ class ContactHelper:
 
     def count(self):
         wb = self.app.wb
+        self.app.return_home_page()
         return len(wb.find_elements_by_name("selected[]"))
