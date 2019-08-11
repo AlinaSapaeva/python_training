@@ -25,7 +25,7 @@ class Application:
 
     def return_home_page(self):
         wb = self.wb
-        if not (len(wb.find_elements_by_id("MassCB")) > 0):
+        if not (wb.current_url.endswith('/addressbook/') and len(wb.find_elements_by_id("MassCB")) > 0):
             wb.find_element_by_link_text("home").click()
 
     def destroy(self):
