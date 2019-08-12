@@ -99,13 +99,11 @@ class ContactHelper:
         wb = self.app.wb
         self.app.return_home_page()
         list_contacts=[]
+        i=2
         for element in wb.find_elements_by_name("entry"):
-            text=element.text
-            text_list=text.split(' ')
-            if not text_list[1] == None:
-                firstname=text_list[1]
-            if not text_list[0] == None:
-                lastname=text_list[0]
+            firstname = element.find_element_by_xpath("//tr[%i]/td[3]" % (i,)).text
+            lastname = element.find_element_by_xpath("//tr[%i]/td[2]" % (i,)).text
             id = element.find_element_by_name("selected[]").get_attribute("id")
-            list_contacts.append(Contact(firstname=firstname, lastname=lastname, id=id))
+            list_contacts.append(Contact(id=id, firstname=firstname, lastname=lastname))
+            i=i+1
         return list_contacts
