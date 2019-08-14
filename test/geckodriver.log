@@ -2851,10 +2851,396 @@ console.error: "Could not write session state file " (new Error("_initWorker cal
 1565724069555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1565724082743	Marionette	INFO	Listening on port 50892
 1565724082870	Marionette	WARN	TLS certificate errors will be ignored for this session
-1565724111006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.LHXSgw7c5UzZ"
-1565724128238	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1565724128238	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1565724128239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1565724128239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1565724132440	Marionette	INFO	Listening on port 50986
-1565724132489	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565717716453%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350068,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350066,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350067,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350048,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 374))
+[Parent 7172, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7172, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"z:/task_1563383129/build/src/toolkit/components/places/Database.cpp","lineNumber":503,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:151","resource://gre/modules/PlacesUtils.jsm:null:1782","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PlacesUtils.jsm:getFolderContents:1174","resource:///modules/BrowserGlue.jsm:getToolbarFolderCount:2307","resource:///modules/BrowserGlue.jsm:_maybeToggleBookmarkToolbarVisibility:2313","resource:///modules/BrowserGlue.jsm:BG__migrateUI:2337","resource:///modules/BrowserGlue.jsm:BG__beforeUIStartup:1077","resource:///modules/BrowserGlue.jsm:BG_observe:763"]}] Barrier: profile-before-change
+1565806667214	Marionette	INFO	Stopped listening on port 50892
+
+1565763114340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565763114340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565763114341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565763138789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.RmPinZYp4VuA"
+1565763193415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565763193416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565763193416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565763193418	addons.webextension.screenshots@m[Parent 8608, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8608, Gecko_IOThread
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350068,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350066,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageCconsole.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 374))
+[Child 3528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3528, ChR_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 601: TypeError: this.tablesData[table] is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1565763312538	Marionette	INFO	Stopped listening on port 52016
+[GPU 7908, 1565763366584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.v3JPoacYf3Ic"
+1565763390752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565763390753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565763390754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565763390754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565763395660	Marionette	INFO	Listening on port 52208
+1565763395890	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 374))
+1565806609669	Marionette	INFO	Stopped listening on port 52208
+:543:17
+confirm@resource://gre/modules/Prompter.jsm:647:14
+DeleteSel@http://localhost/addressbook/:288:6
+onclick@http://localhost/addressbook/:1:1
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 374))
+1565806612835	Marionette	INFO	Stopped listening on port 52310
+t: Invalid extension permission: about:reader*
+1565763762641	Marionette	INFO	Listening on port 52506
+1565763763746	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Child 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1565807061121	Marionette	INFO	Stopped listening on port 52506
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x550005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+jLM14DCZeY"
+1565806715105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565806715105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565806715106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manconsole.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/Sess1565806733831	Marionette	INFO	Listening on port 53521
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 6880, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1565806810501	Marionette	INFO	Stopped listening on port 53521
+[GPU 6916, Chrome_
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+OThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 1400, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1565806811842	Marionette	INFO	Stopped listening on port 53619
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1565806884493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.8FxkGBGLl3eB"
+1565806885554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565806885554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565806885555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565806885555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7796, Chrome_ChildThread] WARNING: pipe error: 11565806890698	Marionette	INFO	Listening on port 53776
+1565806890759	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8720, 1565807043186	Marionette	INFO	Stopped listening on port 53776
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ader*
+1565806923921	Marionette	INFO	Listening on port 53846
+1565806924061	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Child 8096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2248, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7892, Chrome_1565807777893	Marionette	INFO	Stopped listening on port 53846
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565807047428	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565807047428	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 7668, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1565807053065	Marionette	INFO	Listening on port 53961
+1565807053091	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Child 9160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7668, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1565807575157	Marionette	INFO	Stopped listening on port 53961
+[GPU 9140, Chr1565807581592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.nwCjrMUkugPr"
+1565807595098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565807595099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565807595099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565807595099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565807599176	Marionette	INFO	Listening on port 54319
+1565807599308	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 4452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1565807780562	Marionette	INFO	Stopped listening on port 54319
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9192, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 9192, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 9192, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 9192, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15631565807779411	Marionette	INFO	Stopped listening on port 54443
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1565807814174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.34C6CAdsL2C8"
+1565807826492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565807826493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565807826493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565807826493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565807830523	Marionette	INFO	Listening on port 54533
+1565807830893	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565807919231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.JD294Koz8YJ5"
+1565807920150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565807920150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565807920150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565807920151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565807923553	Marionette	INFO	Listening on port 54633
+1565807923658	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565808336385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.KmX3rKYAv1PB"
+1565808337439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565808337440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565808337440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565808337440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565808340886	Marionette	INFO	Listening on port 54897
+1565808340909	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+ension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565808379361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565808379361	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565808382969	Marionette	INFO	Listening on port 54970
+1565808383047	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565808731472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.TWSYpdWPLYRw"
+1565808732512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565808732512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565808732512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565808732513	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565808736345	Marionette	INFO	Listening on port 55207
+1565808736529	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+ension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565808781688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565808781688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565808786762	Marionette	INFO	Listening on port 55275
+1565808786882	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565740805582%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+ension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565809024562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565809024562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565809028403	Marionette	INFO	Listening on port 55428
+1565809028542	Marionette	WARN	TLS certificate errors will be ignored for this session
