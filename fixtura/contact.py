@@ -24,21 +24,13 @@ class ContactHelper:
         # submit deletion
         wb.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wb.switch_to_alert().accept()
+        wb.find_element_by_css_selector("div.msgbox")
 
     def select_first_contact(self):
         wb = self.app.wb
         wb.find_element_by_name("selected[]").click()
 
     def modify_first_contact(self, new_data):
-        wb = self.app.wb
-        self.app.return_home_page()
-        self.select_first_contact()
-        wb.find_element_by_xpath("//img[@alt='Edit']").click()
-        self.fill_contact_form(new_data)
-        wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
-        self.app.return_home_page()
-
-    def modify(self, new_data):
         wb = self.app.wb
         self.app.return_home_page()
         # select first contact
@@ -48,6 +40,7 @@ class ContactHelper:
         self.fill_contact_form(new_data)
         # submit update
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
+        wb.implicitly_wait(10)
         self.app.return_home_page()
 
     def fill_contact_form(self, contact):
@@ -106,4 +99,5 @@ class ContactHelper:
             id = element.find_element_by_name("selected[]").get_attribute("id")
             list_contacts.append(Contact(id=id, firstname=firstname, lastname=lastname))
             i=i+1
+
         return list_contacts
