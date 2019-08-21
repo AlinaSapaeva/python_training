@@ -9,8 +9,9 @@ company="ggygg", address="gyfhg", home="frrg", mobile="9030620645",  work="gfgdg
 email3="nbjhg", homepage="ggfdghb", bday="12", bmonth="March", byear="1994", aday="17", amonth="May", ayear="2000", address2="gffgjf",
 phone2 ="fygfsdf",  notes="hgk")
     app.contact.add_new(contact)
-    new_contacts=app.contact.get_contact_list
-    assert len(old_contacts) +1 == len(new_contacts)
+    # хеширование      == app.contact.count()
+    assert len(old_contacts) + 1 == app.contact.count()
+    new_contacts = app.contact.get_contact_list
     old_contacts.append(contact)
     assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
 
@@ -21,8 +22,8 @@ company="", address="", home="", mobile="",  work="", fax="", email="",   email2
 email3="", homepage="", bday="-", bmonth="-", byear="-", aday="-", amonth="-", ayear="-", address2="",
 phone2 ="",  notes="")
     app.contact.add_new(contact)
+    assert len(old_contacts) + 1 == app.contact.count()
     new_contacts=app.contact.get_contact_list
-    assert len(old_contacts) +1 == len(new_contacts)
     old_contacts.append(contact)
     assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
 

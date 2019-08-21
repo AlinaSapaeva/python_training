@@ -12,29 +12,37 @@ class ContactHelper:
         self.fill_contact_form(contact)
         wb.find_element_by_xpath("(//input[@name='submit'])[2]").click()
         self.app.return_home_page()
+        self.contact_cache = None
 
     def open_create_contacts_page(self):
         wb = self.app.wb
         wb.find_element_by_link_text("add new").click()
 
-    def delete_first_contact(self):
+    def delete_contact_by_index(self, index):
         wb = self.app.wb
         self.app.return_home_page()
-        self.select_first_contact()
+        self.select_contact_by_index(index)
         # submit deletion
         wb.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wb.switch_to_alert().accept()
         wb.find_element_by_css_selector("div.msgbox")
+        self.contact_cache = None
 
     def select_first_contact(self):
+        self.select_contact_by_index(0)
+
+    def select_contact_by_index(self, index):
         wb = self.app.wb
-        wb.find_element_by_name("selected[]").click()
+        wb.find_elements_by_name("selected[]")[index].click()
 
     def modify_first_contact(self, new_data):
+        self.modify_contact_by_index(new_data, 0)
+
+    def modify_contact_by_index(self, new_data, index):
         wb = self.app.wb
         self.app.return_home_page()
         # select first contact
-        self.select_first_contact()
+        self.select_contact_by_index(index)
         # submit editing
         wb.find_element_by_xpath("//img[@alt='Edit']").click()
         self.fill_contact_form(new_data)
@@ -42,6 +50,7 @@ class ContactHelper:
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
         wb.implicitly_wait(10)
         self.app.return_home_page()
+        self.contact_cache = None
 
     def fill_contact_form(self, contact):
         self.change_field_value("firstname", contact.firstname)
@@ -87,17 +96,20 @@ class ContactHelper:
         self.app.return_home_page()
         return len(wb.find_elements_by_name("selected[]"))
 
+    contact_cache = None
+
     @property
     def get_contact_list(self):
-        wb = self.app.wb
-        self.app.return_home_page()
-        list_contacts=[]
-        i=2
-        for element in wb.find_elements_by_name("entry"):
-            firstname = element.find_element_by_xpath("//tr[%i]/td[3]" % (i,)).text
-            lastname = element.find_element_by_xpath("//tr[%i]/td[2]" % (i,)).text
-            id = element.find_element_by_name("selected[]").get_attribute("id")
-            list_contacts.append(Contact(id=id, firstname=firstname, lastname=lastname))
-            i=i+1
-
-        return list_contacts
+        if self.contact_cache is None:
+            wb = self.app.wb
+            self.app.return_home_page()
+            self.contact_cache = []
+            i = 2
+            for element in wb.find_elements_by_name("entry"):
+                cells = element.find_elements_by_tag_name("td")
+                firstname = cells[2].text
+                lastname =cells[1].text
+                id = element.find_element_by_name("selected[]").get_attribute("id")
+                self.contact_cache.append(Contact(id=id, firstname=firstname, lastname=lastname))
+                i = i + 1
+        return list(self.contact_cache)
