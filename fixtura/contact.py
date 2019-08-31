@@ -33,6 +33,7 @@ class ContactHelper:
 
     def select_contact_by_index(self, index):
         wb = self.app.wb
+        self.app.return_home_page()
         wb.find_elements_by_name("selected[]")[index].click()
 
     def modify_first_contact(self, new_data):
@@ -48,7 +49,7 @@ class ContactHelper:
         self.fill_contact_form(new_data)
         # submit update
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
-        wb.implicitly_wait(10)
+        wb.implicitly_wait(40)
         self.app.return_home_page()
         self.contact_cache = None
 
@@ -98,18 +99,15 @@ class ContactHelper:
 
     contact_cache = None
 
-    @property
     def get_contact_list(self):
         if self.contact_cache is None:
             wb = self.app.wb
             self.app.return_home_page()
             self.contact_cache = []
-            i = 2
             for element in wb.find_elements_by_name("entry"):
                 cells = element.find_elements_by_tag_name("td")
                 firstname = cells[2].text
                 lastname =cells[1].text
                 id = element.find_element_by_name("selected[]").get_attribute("id")
                 self.contact_cache.append(Contact(id=id, firstname=firstname, lastname=lastname))
-                i = i + 1
         return list(self.contact_cache)

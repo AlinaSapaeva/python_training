@@ -9,8 +9,8 @@ def test_modify_first_group(app):
     group = Group(name="edit", header="edit", footer="edit")
     group.id = old_groups[index].id
     app.group.modify_group_by_index(group, index)
-    # хеширование      == app.group.count()
-    assert len(old_groups)  == app.group.count()
+    # хеширование == app.group.count()
+    assert len(old_groups) == app.group.count()
     new_groups = app.group.get_group_list()
     old_groups[index] = group
     assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
