@@ -42,14 +42,11 @@ class ContactHelper:
     def modify_contact_by_index(self, new_data, index):
         wb = self.app.wb
         self.app.return_home_page()
-        # select first contact
-        self.select_contact_by_index(index)
         # submit editing
-        wb.find_element_by_xpath("//img[@alt='Edit']").click()
+        wb.find_elements_by_xpath("//img[@alt='Edit']")[index].click()
         self.fill_contact_form(new_data)
         # submit update
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
-        wb.implicitly_wait(40)
         self.app.return_home_page()
         self.contact_cache = None
 
