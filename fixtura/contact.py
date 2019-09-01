@@ -1,5 +1,6 @@
 from selenium.webdriver.support.select import Select
 from model.contact import Contact
+import re
 
 class ContactHelper:
     def __init__(self,app):
@@ -106,5 +107,47 @@ class ContactHelper:
                 firstname = cells[2].text
                 lastname =cells[1].text
                 id = element.find_element_by_name("selected[]").get_attribute("id")
-                self.contact_cache.append(Contact(id=id, firstname=firstname, lastname=lastname))
+                all_phones = cells[5].text
+                address = cells[3].text
+                all_emails = cells[4].text
+                self.contact_cache.append(Contact(id=id, firstname=firstname, lastname=lastname,
+                                                 all_phones_from_home_page = all_phones,
+                                                 address = address, all_emails__from_home_page =all_emails))
         return list(self.contact_cache)
+
+    def get_contact_info_from_edit_page(self, index):
+        wb = self.app.wb
+        self.app.return_home_page()
+        wb.find_elements_by_xpath("//img[@alt='Edit']")[index].click()
+        lastname = wb.find_element_by_name("lastname").get_attribute("value")
+        firstname = wb.find_element_by_name("firstname").get_attribute("value")
+        id = wb.find_element_by_name("id").get_attribute("value")
+        homephone = wb.find_element_by_name("home").get_attribute("value")
+        mobilephone = wb.find_element_by_name("mobile").get_attribute("value")
+        workphone = wb.find_element_by_name("work").get_attribute("value")
+        phone2 = wb.find_element_by_name("phone2").get_attribute("value")
+        address = wb.find_element_by_name("address").get_attribute("value")
+        email  = wb.find_element_by_name("email").get_attribute("value")
+        email2  = wb.find_element_by_name("email2").get_attribute("value")
+        email3  = wb.find_element_by_name("email3").get_attribute("value")
+        return Contact(id=id, firstname=firstname, lastname=lastname, homephone = homephone,
+                       mobilephone = mobilephone, workphone = workphone, phone2=phone2, address = address,
+                       email=email, email2=email2, email3=email3)
+
+#    def get_contact_from_view_page(self, index):
+#       wb = self.app.wb
+#        wb.find_elements_by_xpath("//img[@alt='Details']")[index].click()
+#       text = wb.find_elements_by_id("content").text
+#        homephone = re.search("H: (.*)", text).group(1)
+#        mobilephone = re.search("M: (.*)", text).group(1)
+#        workphone = re.search("W: (.*)", text).group(1)
+#        phone2 = re.search("P: (.*)", text).group(1)
+ #       return Contact(mobilephone=mobilephone, workphone=workphone, phone2=phone2)
+
+
+
+
+
+
+
+

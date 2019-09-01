@@ -28,7 +28,7 @@ class SessionHelper:
 
     def is_logget_in(self):
         wb = self.app.wb
-        return len(wb.find_elements_by_link_text("Logout"))>0
+        return len(wb.find_elements_by_link_text("Logout")) > 0
 
     def ensure_login(self, username, password):
         if self.is_logget_in():
@@ -40,7 +40,11 @@ class SessionHelper:
 
     def is_logget_in_as(self, username):
         wb = self.app.wb
-        return wb.find_element_by_xpath("//div/div[1]/form/b").text=="("+username+")"
+        return self.get_logget_user() == username
+
+    def get_logget_user(self):
+        wb = self.app.wb
+        return wb.find_element_by_xpath("//div/div[1]/form/b").text[1:-1]
 
 
 
