@@ -4498,71 +4498,55 @@ JavaScript error: , line 0: AbortError: The operation was aborted.
 JavaScript error: , line 0: AbortError: The operation was aborted. 
 JavaScript error: , line 0: AbortError: The operation was aborted. 
 JavaScript error: , line 0: AbortError: The operation was aborted. 
-nrec /3c4h1r
-[Child 14024, Chrome_Chiome/common/ipc_channel_win.cc, line 341
-[Child 13316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t[Child 11488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 11488, Chrome_ChildTh1567278932312	Marionette	INFO	Stopped listening on port 53978
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 7544, Chwebextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x350119,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource://gre/modules/ExtensionProcessScript.jsm, line 322: NS_ERROR_UNEXPECTED: 
-1567278929563	Marionette	INFO	Listening on port 54228
-1567278930095	Marionette	WARN	TLS certificate errors will be ignored for this session
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567199562295%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_Re[Parent 12412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1567280153564	Marionette	INFO	Stopped listening on port 54317
-src/chrome/common/ipc_channel_win.cc, line 341
-[Child 13884, Chro1567280153491	Marionette	INFO	Stopped listening on port 54228
-[GPU 5932, Chrome_Ch
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-ice: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567199562295%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
-
-[Parent 12824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 11308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_156[57C06h750/ibludi l1d3/5s8r4c,/ Chrome_ChildThripc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 12824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 2584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1567280153538	Marionette	INFO	Stopped listening on port 54803
-source:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.39/jquery.fancybox.min.js, line 11: TypeError: t is not a function
+JavaScript error: http://software-testing.ru/lms/login/index.php, line 173: ReferenceError: $ is not defined
+[Child 7396, MediaPDecoder #1] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #1] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #2] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #2] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #2] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #2] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #1] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+JavaScript error: http://software-testing.ru/lms/lib/javascript.php?rev=1492933937&jsfile=%2Flib%2Frequirejs%2Frequire.min.js, line 12: Error: Script error for: http://vjs.zencdn.net/5.11.7/video.js
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+[Child 7396, MediaPDecoder #22] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #22] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #22] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 7396, MediaPDecoder #22] WARNING: Stream 100de118 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: http://software-testing.ru/lms/lib/javascript.php?rev=1492933937&jsfile=%2Flib%2Frequirejs%2Frequire.min.js, line 12: Error: Load timeout for modules: jquery
+http://requirejs.org/docs/errors.html#timeout
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+ules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
 1567280015347	Marionette	INFO	Listening on port 54891
 1567280015420	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.error: BroadcastService: 
@@ -4678,73 +4662,140 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
 
-1567358907048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.jL8hRT6PsnZh"
-1567358908169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1567358908170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1567358908170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1567358908170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1567358913591	Marionette	INFO	Listening on port 57981
-1567358913891	Marionette	WARN	TLS certificate errors will be ignored for this session
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567199562295%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+[GFX1-]: Killing GPU process due to IPC reply timeout
 
-[Parent 8124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1567359826292	Marionette	INFO	Stopped listening on port 57981
-t: Invalid extension permission: telemetry
-1567359716316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1567359716316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1567359720836	Marionette	INFO	Listening on port 58442
-1567359720939	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 5904, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1041567359826640	Marionette	INFO	Stopped listening on port 58442
+###!!! [Child][MessageChannel] Error: (msgtype=0x580015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-arionette	INFO	Listening on port 58536
-1567359817818	Marionette	WARN	TLS certificate errors will be ignored for this session
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567199562295%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
 
-[Parent 6280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 6280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 6280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 2228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 9916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 9916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 6280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1567360169633	Marionette	INFO	Stopped listening on port 58536
-[GPU 3308, 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1567360328364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.Uv7HXnt0Ifzo"
-1567360342868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1567360342868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1567360342868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1567360342869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1567360347147	Marionette	INFO	Listening on port 58840
-1567360347289	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Child 5468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 4568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 4568, Chrom[Child 1208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1567360410177	Marionette	INFO	Stopped listening on port 58840
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2000D,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x940003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: Compositors might be mixed (3,1)
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6736, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9132, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[Child 4208, ImageBridgeChild] WARNING: failed to create pipe: 2: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 227
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 9400, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350068,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350066,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350067,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350048,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1667: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1568019370267	Marionette	INFO	Stopped listening on port 57838
+360410177	Marionette	INFO	Stopped listening on port 58840
 id extension permission: resource://pdf.js/
 1567360400322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1567360406289	Marionette	INFO	Listening on port 58926
@@ -4781,3 +4832,472 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
 
+[Parent 11072, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11072, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11072, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1567360903659	Marionette	INFO	Stopped listening on port 59209
+[
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+GPU 12561568023956642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.9LettHhwo4UC"
+1568023977809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568023977809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568023977810	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568023977810	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 1856, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1568024011458	Marionette	INFO	Listening on port 62990
+1568024011918	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+1568024318333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.89Ut6VKlN9j4"
+1568024333899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568024333899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568024333900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568024333900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 6612, MediaPDecoder #1] WARNING: Stream 95aab38 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 6612, MediaPDecoder #1] WARNING: Stream 95aab38 ReadCacheFile failed, rv=NS_ERROR_FAILURE: file z:/task_1565706750/build/src/dom/media/MediaCache.cpp, line 2472
+[Child 6612, MediaPlayback #2] WARNING: Decoder=9611000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file z:/task_1565706750/build/src/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 6612, MediaPlayback #2] WARNING: Decoder=9611000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file z:/task_1565706750/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3307
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1568024337432	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.89Ut6VKlN9j4\\extensions.json","winLastError":112}
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1568024337877	Marionette	INFO	Listening on port 63266
+1568024337884	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.89Ut6VKlN9j4\\extensions.json","winLastError":112}
+1568024338520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568024338543	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.89Ut6VKlN9j4\\extensions.json","winLastError":112}
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1568024338726	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.89Ut6VKlN9j4\\extensions.json","winLastError":112}
+1568024338751	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.89Ut6VKlN9j4\\extensions.json","winLastError":112}
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: (new Error("Error(s) encountered during statement execution: unable to open database file", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource://gre/modules/PlacesExpiration.jsm, line 762: TypeError: this._db is undefined
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+[Parent 8708, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706751568024889925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568024889926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568024889926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568024889926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568024893619	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.cnJ3BYHH7FHs\\extensions.json","winLastError":112}
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1568024894908	Marionette	INFO	Listening on port 63604
+1568024894909	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.cnJ3BYHH7FHs\\extensions.json","winLastError":112}
+1568024894942	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.cnJ3BYHH7FHs\\extensions.json","winLastError":112}
+1568024895382	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: (new Error("Error(s) encountered during statement execution: unable to open database file", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+[Parent 3696, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568024955614	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+shutdown@XPIDatabase.jsm:1574:14
+shutdown@XPIProvider.jsm:2462:23
+_startProvider/AMProviderShutdown/<@AddonManager.jsm:584:31
+AMProviderShutdown@AddonManager.jsm:582:16
+trigger@AsyncShutdown.jsm:701:23
+_wait@AsyncShutdown.jsm:847:15
+wait@AsyncShutdown.jsm:832:33
+shutdownManager@AddonManager.jsm:955:37
+observe@AsyncShutdown.jsm:532:16
+1568024955633	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\раиль\\AppData\\Local\\Temp\\rust_mozprofile.cnJ3BYHH7FHs\\extensions.json","winLastError":112}
+1568024955775	Marionette	INFO	Stopped listening on port 63604
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 3080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568025195318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.FgrKkF4rPJ9l"
+1568025196455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568025196456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568025196456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568025196456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568025200899	Marionette	INFO	Listening on port 63855
+1568025200984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568025256289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.QjIT8LEnxQkO"
+1568025257569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568025257569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568025257570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568025257570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568025262138	Marionette	INFO	Listening on port 63935
+1568025262197	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1568025460359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.l3eVQUcahkrC"
+1568025462601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568025462602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568025462602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568025462602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568025466953	Marionette	INFO	Listening on port 64091
+1568025467067	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chro1568026057925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568026057926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568026057926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568026057927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568026065315	Marionette	INFO	Listening on port 64446
+1568026065556	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 10048, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10048, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[Parent 10048, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 10048, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Child 8044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568026390582	Marionette	INFO	Stopped listening on port 64446
+ionette	INFO	Listening on port 64598
+1568026275912	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 908, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chi1568026390732	Marionette	INFO	Stopped listening on port 64598
+ permission: mozillaAddons
+1568026378806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568026378806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568026378806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 11928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568026384102	Marionette	INFO	Listening on port 64724
+1568026384171	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 11928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11928, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 11928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568026745040	Marionette	INFO	Stopped listening on port 64724
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nges
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 11148, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11148, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35010B,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+[Child 11088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568026746938	Marionette	INFO	Stopped listening on port 64966
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: canno1568026751385	Marionette	INFO	Listening on port 65091
+1568026751465	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 8264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8264, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1568028108623	Marionette	INFO	Stopped listening on port 65091
+[GPU 341nshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568028098546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 12596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Cconsole.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+1568028105920	Marionette	INFO	Listening on port 49385
+1568028106404	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568028197638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.lfX3I5sV0ibL"
+1568028198759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568028198759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568028198760	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568028198760	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568028203177	Marionette	INFO	Listening on port 49494
+1568028203351	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Child 7140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8036, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_wi1568030082520	Marionette	INFO	Stopped listening on port 49494
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rror:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 4376, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4376, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4376, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 4376, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 4376, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4376, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1568030085133	Marionette	INFO	Stopped listening on port 49595
+ssion
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/coll1568030058968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568030058969	addons.webext[Parent 14132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3980, Chrome_ChildThread] WARNING: pipe err[Chori:l d1 0192:1 7f2i,l eC hzr:o/mtea_sCkhi_l1d5Th6570675rea0/bd] WARNINGuild/: psipe error: 109: firc/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc,[Child 7100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568030086253	Marionette	INFO	Stopped listening on port 50439
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+essionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+[Child 11140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568030069059	Marionette	INFO	Listening on port 50547
+1568030069436	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2744, Chrome_ChildTh[Parent 10784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1568030127011	Marionette	INFO	Stopped listening on port 50547
+[Parent 10784, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+1568030130451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\0C83~1\\AppData\\Local\\Temp\\rust_mozprofile.crodxCQI7GbF"
+1568030145871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568030145871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568030145872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568030145872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568030150335	Marionette	INFO	Listening on port 50651
+1568030150550	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567814407663%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+ension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568030221663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568030221663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568030225942	Marionette	INFO	Listening on port 50758
+1568030226139	Marionette	WARN	TLS certificate errors will be ignored for this session
