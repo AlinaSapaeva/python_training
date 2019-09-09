@@ -5,7 +5,7 @@ import random
 import string
 
 def random_string(prefix , maxlen):
-    simbols = string.ascii_letters + string.digits +  " "*4
+    simbols = string.ascii_letters + string.digits + string.punctuation + " "*4
     return prefix + "".join([random.choice(simbols) for i in range(random.randrange(maxlen))])
 
 def random_number(maxlen):
