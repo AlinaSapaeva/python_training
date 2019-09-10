@@ -9,7 +9,6 @@ target = None
 @pytest.fixture
 def app(request):
     global fixture
-
     global target
     browser = request.config.getoption("--browser")
     if target is None:
@@ -25,7 +24,7 @@ def app(request):
 def stop(request):
     def fin():
         fixture.session.ensure_logout()
-        fixture.destroy
+        fixture.destroy()
     request.addfinalizer(fin)
     return fixture
 
