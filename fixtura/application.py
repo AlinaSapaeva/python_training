@@ -5,7 +5,7 @@ from fixtura.contact import ContactHelper
 
 
 class Application:
-    def __init__(self, browser):
+    def __init__(self, browser, base_url):
         if browser == "firefox":
             self.wb = webdriver.Firefox()
         elif browser == "chrome":
@@ -18,6 +18,7 @@ class Application:
         self.session=SessionHelper(self)
         self.group=GroupHelper(self)
         self.contact=ContactHelper(self)
+        self.base_url = base_url
 
     def is_valid(self):
         try:
@@ -28,7 +29,7 @@ class Application:
 
     def open_home_page(self):
         wb = self.wb
-        wb.get("http://localhost/addressbook/")
+        wb.get(self.base_url)
 
     def return_home_page(self):
         wb = self.wb
