@@ -46,11 +46,11 @@ class GroupHelper:
     def delete_first_group(self):
         self.delete_group_by_index(0)
 
-    def modify_group_by_index(self, new_data, index):
+    def modify_group_by_id(self, new_data,id):
         wb = self.app.wb
         self.open_groups_page()
         # select first group
-        self.select_group_by_index(index)
+        self.select_group_by_id(id)
         # submit editing
         wb.find_element_by_name("edit").click()
         self.fill_group_form(new_data)

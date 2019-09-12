@@ -44,11 +44,12 @@ class ContactHelper:
     def modify_first_contact(self, new_data):
         self.modify_contact_by_index(new_data, 0)
 
-    def modify_contact_by_id(self, new_data, id):
+    def modify_contact_by_index(self, new_data, index):
         wb = self.app.wb
         self.app.return_home_page()
         # submit editing
-        wb.find_element_by_css_selector("input[id = '%s']" %id ).click()
+        wb.find_elements_by_xpath("//img[@alt='Edit']")[index].click()
+       # wb.find_element_by_css_selector("input[value = '%s']" % id).click()
         self.fill_contact_form(new_data)
         # submit update
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
