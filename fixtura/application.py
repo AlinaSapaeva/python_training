@@ -20,12 +20,12 @@ class Application:
         self.contact=ContactHelper(self)
         self.base_url = base_url
 
-    def is_valid(self):
+    def is_not_valid(self):
         try:
             self.wb.current_url
-            return True
-        except:
             return False
+        except:
+            return True
 
     def open_home_page(self):
         wb = self.wb

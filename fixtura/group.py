@@ -29,11 +29,15 @@ class GroupHelper:
         wb = self.app.wb
         wb.find_elements_by_name("selected[]")[index].click()
 
-    def delete_group_by_index(self, index):
+    def select_group_by_id(self, id):
+        wb = self.app.wb
+        wb.find_element_by_css_selector("input[value = '%s']" %id ).click()
+
+    def delete_group_by_id(self, id):
         wb = self.app.wb
         self.open_groups_page()
         # select first group
-        self.select_group_by_index(index)
+        self.select_group_by_id(id)
         # submit deletion
         wb.find_element_by_name("delete").click()
         self.return_to_groups_page()
