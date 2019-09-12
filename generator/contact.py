@@ -22,7 +22,7 @@ for o, a in opts:
         f = a
 
 def random_string(prefix , maxlen):
-    simbols = string.ascii_letters + string.digits + string.punctuation + " "*4
+    simbols = string.ascii_letters + string.digits + " "*4
     return prefix + "".join([random.choice(simbols) for i in range(random.randrange(maxlen))])
 
 def random_number(maxlen):
@@ -42,12 +42,12 @@ testdata = [Contact(firstname="", middlename="", lastname="", nickname="", title
             email2=random_string("email2", 5), email3=random_string("email3", 5),
             homepage=random_string("homepage", 5),
             address2=random_string("address2", 10), phone2=random_string("phone2", 10),
-            notes=random_string("notes", 10),)
+            notes=random_string("notes", 10))
     for i in range(2)
 ]
 
 file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f)
 
 with open(file, "w") as out:
-    jsonpickle.set_decoder_options("json", indent = 2)
+    jsonpickle.set_encoder_options("json", indent = 2)
     out.write(jsonpickle.encode(testdata))

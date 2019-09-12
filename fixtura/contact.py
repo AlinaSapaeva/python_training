@@ -19,10 +19,14 @@ class ContactHelper:
         wb = self.app.wb
         wb.find_element_by_link_text("add new").click()
 
-    def delete_contact_by_index(self, index):
+    def select_contact_by_id(self, id):
+        wb = self.app.wb
+        wb.find_element_by_id(id).click()
+
+    def delete_contact_by_id(self, id):
         wb = self.app.wb
         self.app.return_home_page()
-        self.select_contact_by_index(index)
+        self.select_contact_by_id(id)
         # submit deletion
         wb.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wb.switch_to_alert().accept()
@@ -40,11 +44,11 @@ class ContactHelper:
     def modify_first_contact(self, new_data):
         self.modify_contact_by_index(new_data, 0)
 
-    def modify_contact_by_index(self, new_data, index):
+    def modify_contact_by_id(self, new_data, id):
         wb = self.app.wb
         self.app.return_home_page()
         # submit editing
-        wb.find_elements_by_xpath("//img[@alt='Edit']")[index].click()
+        wb.find_element_by_css_selector("input[id = '%s']" %id ).click()
         self.fill_contact_form(new_data)
         # submit update
         wb.find_element_by_xpath("(//input[@name='update'])[2]").click()
