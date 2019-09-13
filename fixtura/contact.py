@@ -56,6 +56,23 @@ class ContactHelper:
         self.app.return_home_page()
         self.contact_cache = None
 
+    def add_contact_to_group(self, id_group, id_contact):
+        wb = self.app.wb
+        self.app.return_home_page()
+        wb.find_element_by_css_selector("input[value = '%s']" % id_contact).click()
+        groups = Select(wb.find_element_by_name("to_group"))
+        groups.select_by_value("%s" % id_group)
+        wb.find_element_by_name("add").click()
+        self.app.return_home_page()
+
+    def delete_group_in_contact(self, id_group, id_contact):
+        wb = self.app.wb
+        self.app.return_home_page()
+        groups = Select(wb.find_element_by_name("group"))
+        groups.select_by_value("%s" % id_group)
+        wb.find_element_by_css_selector("input[value = '%s']" % id_contact).click()
+        wb.find_element_by_name("remove").click()
+
     def fill_contact_form(self, contact):
         self.change_field_value("firstname", contact.firstname)
         self.change_field_value("middlename", contact.middlename)

@@ -20,5 +20,3 @@ def test_add_new_contact(app, db, json_contacts, check_ui):
 
 
 
-
-
