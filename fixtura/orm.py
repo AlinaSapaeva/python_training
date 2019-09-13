@@ -20,6 +20,14 @@ class ORMFixture:
         id = PrimaryKey(int, column="id")
         firstname = Optional(str, column="firstname")
         lastname = Optional(str, column="lastname")
+        homephone = Optional(str, column="home")
+        mobilephone = Optional(str, column="mobile")
+        workphone = Optional(str, column="work")
+        phone2 = Optional(str, column="phone2")
+        email = Optional(str, column="email")
+        email2 = Optional(str, column="email2")
+        email3 = Optional(str, column="email3")
+        address = Optional(str, column="address")
         deprecated = Optional(datetime, column='deprecated')
         groups = Set(lambda : ORMFixture.ORMGroup, table='address_in_groups', column='group_id', reverse='contacts', lazy=True)
 
@@ -39,7 +47,10 @@ class ORMFixture:
 
     def convert_contats_to_model(self, contacts):
         def convert(contact):
-            return Contact(id= str(contact.id), firstname= contact.firstname, lastname= contact.lastname)
+            return Contact(id= str(contact.id), firstname= contact.firstname, lastname= contact.lastname,
+                           homephone = contact.homephone, mobilephone = contact.mobilephone, workphone = contact.workphone,
+                           phone2 = contact.phone2, email = contact.email, email2 = contact.email2,
+                           email3 = contact.email3, address = contact.address)
         return list(map(convert, contacts))
 
     @db_session
