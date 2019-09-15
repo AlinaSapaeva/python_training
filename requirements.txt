@@ -1,4 +1,4 @@
-pytest
+py.test
 pytest_bdd
 selenium
 jsonpickle
